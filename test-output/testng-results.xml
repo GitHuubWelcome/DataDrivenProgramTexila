@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-27T14:30:38 IST" name="Default suite" finished-at="2023-06-27T14:31:24 IST" duration-ms="46329">
+    <groups>
+    </groups>
+    <test started-at="2023-06-27T14:30:38 IST" name="Default test" finished-at="2023-06-27T14:31:24 IST" duration-ms="46329">
+      <class name="mainframepackage.MainworkcreationClass">
+        <test-method is-config="true" signature="Extentreport()[pri:0, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:30:38 IST" name="Extentreport" finished-at="2023-06-27T14:30:38 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extentreport -->
+        <test-method signature="BrowserLaunch()[pri:1, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:30:39 IST" name="BrowserLaunch" finished-at="2023-06-27T14:30:53 IST" duration-ms="14945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:30:53 IST" name="getResult" finished-at="2023-06-27T14:30:53 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BrowserLaunch status=SUCCESS method=MainworkcreationClass.BrowserLaunch()[pri:1, instance:mainframepackage.MainworkcreationClass@6c130c45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Login()[pri:2, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:30:53 IST" name="Login" finished-at="2023-06-27T14:30:59 IST" duration-ms="5281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:30:59 IST" name="getResult" finished-at="2023-06-27T14:30:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=MainworkcreationClass.Login()[pri:2, instance:mainframepackage.MainworkcreationClass@6c130c45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CandidateRegistration()[pri:3, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:30:59 IST" name="CandidateRegistration" finished-at="2023-06-27T14:31:15 IST" duration-ms="16354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidateRegistration -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:31:15 IST" name="getResult" finished-at="2023-06-27T14:31:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidateRegistration status=SUCCESS method=MainworkcreationClass.CandidateRegistration()[pri:3, instance:mainframepackage.MainworkcreationClass@6c130c45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ResumeUpload()[pri:4, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:31:15 IST" name="ResumeUpload" finished-at="2023-06-27T14:31:23 IST" duration-ms="8252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResumeUpload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:31:23 IST" name="getResult" finished-at="2023-06-27T14:31:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ResumeUpload status=SUCCESS method=MainworkcreationClass.ResumeUpload()[pri:4, instance:mainframepackage.MainworkcreationClass@6c130c45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:mainframepackage.MainworkcreationClass@6c130c45]" started-at="2023-06-27T14:31:23 IST" name="endreport" finished-at="2023-06-27T14:31:24 IST" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- mainframepackage.MainworkcreationClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
