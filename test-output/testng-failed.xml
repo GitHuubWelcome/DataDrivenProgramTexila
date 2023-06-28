@@ -3,17 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mainframepackage.MainworkcreationClass">
+      <class name="mainframepackage.ExcelDataProvider">
         <methods>
           <include name="Extentreport"/>
-          <include name="endreport"/>
-          <include name="Login"/>
+          <include name="teardown"/>
+          <include name="BrowserLaunch" invocation-numbers="1"/>
           <include name="getResult"/>
-          <include name="CandidateRegistration"/>
-          <include name="ResumeUpload"/>
-          <include name="BrowserLaunch"/>
         </methods>
-      </class> <!-- mainframepackage.MainworkcreationClass -->
+      </class> <!-- mainframepackage.ExcelDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

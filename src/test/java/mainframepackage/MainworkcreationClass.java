@@ -34,7 +34,7 @@ public class MainworkcreationClass {
 	public ExtentTest test;			
 	public WebDriver driver;
 	
-    
+	   
     @BeforeTest			
 	public void Extentreport() {			
 	extent = new ExtentReports(System.getProperty("D:\\Eclipseworkspace 1\\HrmsDemoProgram") + "HrmsDemoReport.html",true);		
@@ -65,6 +65,7 @@ public class MainworkcreationClass {
 		WebElement Password=driver.findElement(By.id("password"));
 		Password.click();
 		Password.sendKeys("bjohnpaul@0609");
+		
 		
 		WebElement signup=driver.findElement(By.xpath("//button[@type='submit']"));
 		signup.click();	
